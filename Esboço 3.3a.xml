@@ -1,0 +1,34 @@
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>50</x><y>200</y><w>200</w><h>130</h></coordinates><panel_attributes>&lt;&lt;Ideias&gt;&gt;
+--
+
+--
+Id Ideia
+Id Participante
+Id Categoria
+Descrição</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>30</y><w>200</w><h>100</h></coordinates><panel_attributes>&lt;&lt;Categorias&gt;&gt;
+--
+
+--
+Id Categoria
+Nome
+Descrição</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>30</y><w>200</w><h>100</h></coordinates><panel_attributes>&lt;&lt;Participante&gt;&gt;
+--
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>80</y><w>90</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=1..n</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>120</y><w>50</w><h>100</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..*</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>120</y><w>140</w><h>160</h></coordinates><panel_attributes>lt=&lt;-
+m1=1..*
+m2=0..*</panel_attributes><additional_attributes>110;10;10;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>520</y><w>200</w><h>130</h></coordinates><panel_attributes>&lt;&lt;Organizador&gt;&gt;
+--
+
+--
+Id Ideia
+Id Participante
+Id Categoria
+Descrição</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>420</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>290</y><w>100</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
+m1=1..1</panel_attributes><additional_attributes>10;10;80;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>350</y><w>140</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Aviso&gt;&gt;
+--
+
+--
+DataHora</panel_attributes><additional_attributes></additional_attributes></element></diagram>

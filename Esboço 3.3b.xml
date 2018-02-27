@@ -1,0 +1,5 @@
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>20</x><y>80</y><w>370</w><h>60</h></coordinates><panel_attributes>Interface - InovacaoSV
+--
+ConsultarCategorias():Categoria[]
+EnviarIdeia(IdParticipante,categoriasSelecionadas,Descrição):
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
